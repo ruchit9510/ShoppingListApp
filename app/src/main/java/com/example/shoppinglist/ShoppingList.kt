@@ -58,7 +58,7 @@ fun ShoppingListApp(){
     }
     if(showDialog){
         AlertDialog(onDismissRequest = {showDialog = false}){
-            Text(text = "This is Alert Dialog !!!")
+            Text(text = "This is Alert Dialog !!")
         }
     }
 
